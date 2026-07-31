@@ -39,10 +39,10 @@ layout: null
       <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer" class="card">
         <div class="card-banner" style="background-image: url('{{ article.banner }}');">
           <span class="publisher-badge">
-            {% if article.url contains 'youtube.com' %}
-              ▶️ Video
+            {% if article.tags contains 'Dissertation' %}
+              🎓 Dissertation
             {% elsif article.tags contains 'Presentation' %}
-              📄 PDF
+              ▶️ Video
             {% elsif article.tags contains 'Academic Paper' %}
               🎓 Academic
             {% else %}
