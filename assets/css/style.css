@@ -28,6 +28,22 @@ body {
   margin: 0;
 }
 
+/* Header Layout & Role Formatting */
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.role {
+  color: #58a6ff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 4px 0 0 0;
+}
+
 /* 3-Column Grid */
 .card-grid {
   display: grid;
