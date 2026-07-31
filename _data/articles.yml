@@ -1,0 +1,13 @@
+- title: "'Hello? I can’t hear you': Investigating UNC1069’s Fake Meeting Tactics"
+  publisher: "Validin"
+  date: "April 14, 2026"
+  banner: "https://www.validin.com/images/i_cant_hear_you_unc1069/header_image.webp"
+  url: "https://www.validin.com/blog/i_cant_hear_you_unc1069/"
+  tags: ["DPRK", "APT", "UNC1069", "Social Engineering"]
+
+- title: "The Detection & Response Chronicles: Exploring Telegram Abuse"
+  publisher: "NVISO Security"
+  date: "December 16, 2025"
+  banner: "https://blog.nviso.eu/wp-content/uploads/2025/12/DRC_Exploring_Telegram_Abuse_blog_image-1100x575.jpg"
+  url: "https://blog.nviso.eu/2025/12/16/the-detection-response-chronicles-exploring-telegram-abuse/"
+  tags: ["Detection Engineering", "Telegram"]
