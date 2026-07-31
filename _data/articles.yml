@@ -136,7 +136,7 @@
   date: "January 22, 2024"
   banner: "/assets/tweetfeed_misp_banner.jpg"
   url: "https://medium.com/@s.lontzetidis/integrating-tweetfeed-into-misp-using-python-e0a94e01fec2"
-  tags: ["MISP", "Python", "Automation", "TweetFeed]
+  tags: ["MISP", "Python", "Automation", "TweetFeed"]
 
 - title: "EditBot: A New Infostealer on the Rise"
   publisher: "Obrela"
@@ -178,7 +178,7 @@
   date: "August 10, 2022"
   banner: "/assets/themis_paper_banner.jpg"
   url: "https://www.researchgate.net/publication/362606078_Themis_Computer-Aided_Cybercrime_Case_Classification_using_Cosine_Similarity_and_Ontological_Reasoning"
-  tags: ["MSc Dissertation", "Cybercrime", "Cosine Similarity", "Ontological Reasoning]
+  tags: ["MSc Dissertation", "Cybercrime", "Cosine Similarity", "Ontological Reasoning"]
 
 - title: "Evaluation and Enhancement of the Actionability of Publicly Available Cyber Threat Information in Digital Forensics"
   publisher: "IEEE"
