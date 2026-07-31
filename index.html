@@ -30,7 +30,10 @@ layout: null
         </div>
       </div>
     </header>
-
+    <div class="search-container" style="margin-bottom: 24px;">
+      <input type="text" id="searchInput" placeholder="Search by topic, malware, or APT..." 
+             style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: #0d1117; color: #fff; font-size: 1rem;">
+    </div>
     <main class="card-grid">
       {% for article in site.data.articles %}
       <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer" class="card">
@@ -50,5 +53,20 @@ layout: null
       {% endfor %}
     </main>
   </div>
+<script>
+  document.getElementById('searchInput').addEventListener('keyup', function() {
+    let filter = this.value.toLowerCase();
+    let cards = document.getElementsByClassName('card');
+
+    for (let i = 0; i < cards.length; i++) {
+      let content = cards[i].textContent.toLowerCase();
+      if (content.includes(filter)) {
+        cards[i].style.display = "flex";
+      } else {
+        cards[i].style.display = "none";
+      }
+    }
+  });
+</script>
 </body>
 </html>
