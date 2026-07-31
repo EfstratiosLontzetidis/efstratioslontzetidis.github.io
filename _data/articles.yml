@@ -1,21 +1,21 @@
 - title: "FortiBleed Unmasked: A Joint Operation by Lynx and INC Ransomware Groups"
   publisher: "SOCRadar"
   date: "July 6, 2026"
-  banner: "https://socradar.io/wp-content/uploads/2026/07/fortibleed-unmasked-inside-the-lynx-and-inc-ransomware-operation.jpg.webp"
+  banner: "/assets/fortibleed_banner.webp"
   url: "https://socradar.io/wp-content/uploads/2026/07/FortiBleed-Unmasked_-A-Joint-Operation-by-Lynx-and-INC-Ransomware-Groups-.pdf"
   tags: ["INCRansom", "Lynx", "Ransomware", "FortiBleed"]
   
 - title: "Dismantling FortiBleed: Inside a Russian Fortinet Compromise Operation"
   publisher: "SOCRadar"
   date: "June 22, 2026"
-  banner: "https://socradar.io/wp-content/uploads/2026/06/dismantling-fortibleed-inside-a-russian-fortinet-compromise-operation.jpg.webp"
+  banner: "/assets/dismantling_fortibleed_banner.webp"
   url: "https://socradar.io/wp-content/uploads/2026/06/Dismantling-FortiBleed.pdf"
   tags: ["Russia", "FortiBleed", "FortiGate", "IAB"]
 
 - title: "New Data Extortion Group “Pink” Goes Big Game Hunting With Evasive Phishing Kits"
   publisher: "SOCRadar"
   date: "June 12, 2026"
-  banner: "https://socradar.io/wp-content/uploads/2026/06/pink-data-extortion-group-phishing-kits.png.webp"
+  banner: "/assets/pink_banner.webp"
   url: "https://socradar.io/blog/pink-data-extortion-group-phishing-kits/"
   tags: ["Phishing", "Pink", "BlackFile", "The Com", "Okta", "Entra ID"]
 
