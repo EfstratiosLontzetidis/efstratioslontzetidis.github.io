@@ -1,0 +1,39 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efstratios Lontzetidis - Cyber Threat Research Gallery</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Efstratios Lontzetidis</h1>
+      <p>Cyber Threat Intelligence & Threat Research</p>
+    </header>
+
+    <main class="card-grid">
+      {% for article in site.data.articles %}
+      <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer" class="card">
+        <div class="card-banner" style="background-image: url('{{ article.banner }}');">
+          <span class="publisher-badge">{{ article.publisher }}</span>
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">{{ article.title }}</h2>
+          <div class="card-date">{{ article.date }}</div>
+          <div class="tags">
+            {% for tag in article.tags %}
+            <span class="tag">#{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </main>
+  </div>
+</body>
+</html>
