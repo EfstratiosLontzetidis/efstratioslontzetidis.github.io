@@ -31,10 +31,9 @@ body {
 /* Header Layout & Role Formatting */
 .header-main {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 16px;
+  flex-direction: column; /* Stacks the text and the links vertically */
+  align-items: flex-start; /* Aligns everything to the left edge */
+  gap: 12px;
 }
 
 .role {
@@ -125,11 +124,13 @@ body {
 }
 
 /* Social Media Badges */
+/* Social Media Badges */
 .social-links-vertical {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: flex-end; /* Aligns them neatly to the right on desktop */
+  flex-direction: row; /* Places the badges side-by-side */
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
 }
 
 .social-badge {
@@ -160,12 +161,4 @@ body {
   width: 15px;
   height: 15px;
   flex-shrink: 0;
-}
-
-/* On small screens, align them to the left to match the text */
-@media (max-width: 600px) {
-  .social-links-vertical {
-    align-items: flex-start;
-    margin-top: 10px;
-  }
 }
