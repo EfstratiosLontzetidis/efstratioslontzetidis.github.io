@@ -29,7 +29,7 @@
 - title: "Presentation: Unlocking Insights: The Role of TI in Modern DFIR Operations"
   publisher: "FIRST CTI 2026"
   date: "April 23, 2026"
-  banner: "/assets/pink_banner.webp"
+  banner: "/assets/first_cti.jpg"
   url: "https://www.youtube.com/watch?v=t-UNY-j8FbQ"
   tags: ["Presentation","TI", "DFIR", "APT", "Android Malware", "Winnti"]
 
@@ -50,146 +50,146 @@
 - title: "Contagious Interview Actors Now Utilize JSON Storage Services for Malware Delivery"
   publisher: "NVISO Security"
   date: "November 13, 2025"
-  banner: "/assets/telegram_abuse_banner.jpg"
-  url: "Chttps://blog.nviso.eu/2025/11/13/contagious-interview-actors-now-utilize-json-storage-services-for-malware-delivery/"
+  banner: "/assets/json_storage.webp"
+  url: "https://blog.nviso.eu/2025/11/13/contagious-interview-actors-now-utilize-json-storage-services-for-malware-delivery/"
   tags: ["DPRK", "APT", "Lazarus", "Social Engineering", "Contagious Interview"]
 
 - title: "Lunar Spider Expands their Web via FakeCaptcha"
   publisher: "NVISO Security"
   date: "October 01, 2025"
-  banner: "/assets/lunar_spider_banner.jpg"
+  banner: "/assets/lunar_spider_banner.webp"
   url: "https://blog.nviso.eu/2025/10/01/lunar-spider-expands-their-web-via-fakecaptcha/"
   tags: ["Lunar Spider", "FakeCaptcha", "Latrodectus"]
 
 - title: "Shedding Light on PoisonSeed’s Phishing Kit"
   publisher: "NVISO Security"
   date: "August 12, 2025"
-  banner: "/assets/poisonseeds_banner.jpg"
+  banner: "/assets/poisonseed.webp"
   url: "https://blog.nviso.eu/2025/08/12/shedding-light-on-poisonseeds-phishing-kit/"
   tags: ["Phishing", "PoisonSeed", "Precision-Validated Phishing", "The Com"]
 
 - title: "Presentation: Adversary Infrastructure Hunting - A practical case of hunting Lazarus APT"
   publisher: "Security BSides Athens 2025"
   date: "June 28, 2025"
-  banner: "/assets/pink_banner.webp"
+  banner: "/assets/bsidesathens.jpeg"
   url: "https://2025.bsidesath.gr/"
   tags: ["Presentation","DPRK", "Lazarus", "Infrastructure Hunting", "ClickFake Interview", "Famous Chollima"]
 
 - title: "LummaStealer Campaign: Too Much Love for Software Pirates"
   publisher: "Medium"
   date: "February 21, 2025"
-  banner: "/assets/lummastealer_pirates_banner.jpg"
+  banner: "/assets/lumma_campaign.webp"
   url: "https://medium.com/@s.lontzetidis/lummastealer-campaign-too-much-love-for-software-pirates-66ebe4b2f3a6"
   tags: ["LummaStealer", "Infostealer", "Cracked Software"]
 
 - title: "Lazarus APT: Techniques for Hunting Contagious Interview"
   publisher: "Validin"
   date: "January 16, 2025"
-  banner: "/assets/validin_contagious_interview_banner.jpg"
+  banner: "/assets/lazarus_contagious_validin.webp"
   url: "https://www.validin.com/blog/inoculating_contagious_interview_with_validin/"
   tags: ["Contagious Interview", "Infrastructure", "Validin", "Lazarus", "DPRK"]
 
 - title: "Lumma (2024): Dominating the Info-Stealer Market"
   publisher: "Medium"
   date: "December 28, 2024"
-  banner: "/assets/lumma_2024_banner.jpg"
+  banner: "/assets/lumma_market.webp"
   url: "https://medium.com/@s.lontzetidis/lumma-2024-dominating-the-info-stealer-market-070e7d8fa3d6"
   tags: ["LummaStealer", "Infostealer", "Market Trends"]
 
 - title: "Greece’s 2024 Cyber Threat Landscape: Trends and Predictions"
   publisher: "Medium"
   date: "December 09, 2024"
-  banner: "/assets/greece_threat_landscape_2024_banner.jpg"
+  banner: "/assets/greek_tl.webp"
   url: "https://medium.com/@s.lontzetidis/greeces-2024-cyber-threat-landscape-trends-and-predictions-4015a1f0fbbc"
   tags: ["Threat Landscape", "Greece", "CTI"]
 
 - title: "Exploring Pythia: A Generic Query Format for Discovering Malicious Infrastructure"
   publisher: "Medium"
   date: "August 07, 2024"
-  banner: "/assets/pythia_banner.jpg"
+  banner: "/assets/pythia.webp"
   url: "https://medium.com/@s.lontzetidis/exploring-pythia-a-generic-query-format-for-discovering-malicious-infrastructure-8956876cc15a"
   tags: ["Pythia", "Infrastructure", "Threat Hunting"]
 
 - title: "Cyber Threat Intelligence Lifecycle: Answering the CTI Analyst Challenge"
   publisher: "Medium"
   date: "June 18, 2024"
-  banner: "/assets/cti_lifecycle_banner.jpg"
+  banner: "/assets/cti_analyst_chall.webp"
   url: "https://medium.com/@s.lontzetidis/cyber-threat-intelligence-lifecycle-answering-the-cti-analyst-challenge-3ddf7e0be28c"
   tags: ["CTI Lifecycle", "Threat Intelligence", "Methodology"]
 
 - title: "Understanding the Ransomware Ecosystem"
   publisher: "Medium"
   date: "February 21, 2024"
-  banner: "/assets/ransomware_ecosystem_banner.jpg"
+  banner: "/assets/raas.webp"
   url: "https://medium.com/@s.lontzetidis/understanding-the-ransomware-ecosystem-1af87b3dc2e5"
   tags: ["Ransomware", "RaaS", "IAB"]
 
 - title: "Combining Cybersecurity Frameworks: An Alternative to Incident Reporting"
   publisher: "Medium"
   date: "February 09, 2024"
-  banner: "/assets/cybersecurity_frameworks_banner.jpg"
+  banner: "/assets/ckc-dm.webp"
   url: "https://medium.com/@s.lontzetidis/combining-cybersecurity-frameworks-an-alternative-to-incident-reporting-9d642d9a5456"
   tags: ["Diamond Model", "Cyber Kill Chain", "MITRE ATT&CK", "CTI"]
 
 - title: "Integrating TweetFeed into MISP using Python"
   publisher: "Medium"
   date: "January 22, 2024"
-  banner: "/assets/tweetfeed_misp_banner.jpg"
+  banner: "/assets/tweetfeed.webp"
   url: "https://medium.com/@s.lontzetidis/integrating-tweetfeed-into-misp-using-python-e0a94e01fec2"
   tags: ["MISP", "Python", "Automation", "TweetFeed"]
 
 - title: "EditBot: A New Infostealer on the Rise"
   publisher: "Obrela"
   date: "December 29, 2023"
-  banner: "/assets/editbot_banner.jpg"
+  banner: "/assets/editbot.webp"
   url: "https://www.obrela.com/advisory/editbot-a-new-infostealer-on-the-rise/"
   tags: ["EditBot", "Infostealer", "Telegram"]
   
 - title: "Pikabot: A New Emerging Threat"
   publisher: "Obrela Security Industries"
   date: "December 14, 2023"
-  banner: "/assets/pikabot_banner.jpg"
+  banner: "/assets/pikabot.webp"
   url: "https://www.obrela.com/advisory/pikabot-a-new-emerging-threat/"
   tags: ["Pikabot", "TA577", "C2"]
 
 - title: "Cyber Threat Intelligence Sharing: Making the Investigation Outcomes Actionable"
   publisher: "Medium"
   date: "November 27, 2023"
-  banner: "/assets/cti_sharing_banner.jpg"
+  banner: "/assets/cti_sharing.webp"
   url: "https://medium.com/@s.lontzetidis/cyber-threat-intelligence-sharing-making-the-investigation-outcomes-actionable-82ca6e7cb7e3"
   tags: ["CTI Sharing", "Actionable Intelligence", "IoCs", "STIX"]
 
 - title: "Cyber Threat Intelligence Pivoting: From a Single Alert to Multiple IoCs"
   publisher: "Medium"
   date: "November 09, 2023"
-  banner: "/assets/cti_pivoting_banner.jpg"
+  banner: "/assets/pivoting.webp"
   url: "https://medium.com/@s.lontzetidis/cyber-threat-intelligence-pivoting-from-a-single-alert-to-multiple-iocs-646662142608"
   tags: ["Pivoting", "Threat Hunting", "IoCs"]
 
 - title: "Fronesis: Digital Forensics-based Early Detection of Ongoing Cyber-Attacks"
   publisher: "IEEE"
   date: "December 10, 2022"
-  banner: "/assets/fronesis_paper_banner.jpg"
+  banner: "/assets/fronesis.webp"
   url: "https://ieeexplore.ieee.org/document/10004506"
   tags: ["Academic Paper", "Digital Forensics", "Early Detection", "Cyber Kill Chain", "MITRE ATT&CK"]
 
 - title: "Themis: Computer-Aided Cybercrime Case Classification using Cosine Similarity and Ontological Reasoning"
   publisher: "University of East London"
   date: "August 10, 2022"
-  banner: "/assets/themis_paper_banner.jpg"
+  banner: "/assets/themis.png"
   url: "https://www.researchgate.net/publication/362606078_Themis_Computer-Aided_Cybercrime_Case_Classification_using_Cosine_Similarity_and_Ontological_Reasoning"
   tags: ["MSc Dissertation", "Cybercrime", "Cosine Similarity", "Ontological Reasoning"]
 
 - title: "Evaluation and Enhancement of the Actionability of Publicly Available Cyber Threat Information in Digital Forensics"
   publisher: "IEEE"
   date: "July 06, 2021"
-  banner: "/assets/cti_actionability_paper_banner.jpg"
+  banner: "/assets/evaluation.png"
   url: "https://ieeexplore.ieee.org/document/9527934/"
   tags: ["Academic Paper", "Digital Forensics", "CTI", "STIX"]
 
 - title: "Evaluation and Classification of Cyber Threat Intelligence Sources (Greek)"
   publisher: "University of Macedonia"
   date: "June 01, 2021"
-  banner: "/assets/cti_sources_greek_paper_banner.jpg"
+  banner: "/assets/evaluation_thesis.png"
   url: "https://www.researchgate.net/publication/351984537_Evaluation_and_Classification_of_Cyber_Threat_Intelligence_Sources_Greek"
   tags: ["BSc Dissertation", "CTI Sources", "Classification", "STIX"]
