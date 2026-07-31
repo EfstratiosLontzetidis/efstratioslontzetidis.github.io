@@ -84,79 +84,48 @@ layout: null
 </script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-  // Extract dates from Jekyll
+  // Extract dates from Jekyll and convert to years
   const rawDates = [
     {% for article in site.data.articles %}
       "{{ article.date }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
 
-  const monthlyCounts = {};
-  
+  const yearCounts = {};
   rawDates.forEach(dateStr => {
-    // Parse the date string into a real Date object
-    const d = new Date(dateStr);
-    
-    // Check if the date is valid
-    if (!isNaN(d.getTime())) { 
-      const year = d.getFullYear();
-      
-      // Pad the month with a zero (e.g., "07" instead of "7") for correct chronological sorting
-      const monthNum = String(d.getMonth() + 1).padStart(2, '0');
-      const sortKey = `${year}-${monthNum}`; // e.g., "2026-07"
-      
-      // Get the short month name (Jan, Feb, Mar, etc.)
-      const monthName = d.toLocaleString('en-US', { month: 'short' });
-      const displayLabel = `${monthName} ${year}`; // e.g., "Jul 2026"
-
-      if (!monthlyCounts[sortKey]) {
-        monthlyCounts[sortKey] = { count: 0, label: displayLabel };
-      }
-      monthlyCounts[sortKey].count += 1;
+    // Extract the 4-digit year from strings like "December 16, 2025"
+    const match = dateStr.match(/\d{4}/);
+    if (match) {
+      const year = match[0];
+      yearCounts[year] = (yearCounts[year] || 0) + 1;
     }
   });
 
-  // Sort the keys chronologically (e.g., 2024-01, 2024-02, 2024-03)
-  const sortedKeys = Object.keys(monthlyCounts).sort();
-  
-  // Create arrays for Chart.js
-  const labels = sortedKeys.map(key => monthlyCounts[key].label);
-  const data = sortedKeys.map(key => monthlyCounts[key].count);
+  // Sort years chronologically
+  const labels = Object.keys(yearCounts).sort();
+  const data = labels.map(year => yearCounts[year]);
 
   // Draw the chart
   const ctx = document.getElementById('publicationChart').getContext('2d');
   new Chart(ctx, {
-    type: 'line', // Changed to line graph
+    type: 'bar', // Can be 'line' or 'bar'
     data: {
       labels: labels,
       datasets: [{
         label: 'Articles Published',
         data: data,
-        backgroundColor: 'rgba(88, 166, 255, 0.15)', // Subtle blue fill under the line
+        backgroundColor: '#58a6ff',
         borderColor: '#58a6ff',
-        borderWidth: 2,
-        pointBackgroundColor: '#0d1117', // Dark center for dots
-        pointBorderColor: '#58a6ff',
-        pointBorderWidth: 2,
-        pointRadius: 4,
-        pointHoverRadius: 6,
-        fill: true, // Fills the background below the line
-        tension: 0.3 // Gives the line a smooth, curved look
+        borderWidth: 1,
+        borderRadius: 4
       }]
     },
     options: {
       responsive: true,
-      plugins: { 
-        legend: { display: false } 
-      },
+      plugins: { legend: { display: false } },
       scales: {
-        y: { 
-          beginAtZero: true, 
-          ticks: { color: '#8b949e', stepSize: 1 } 
-        },
-        x: { 
-          ticks: { color: '#8b949e' } 
-        }
+        y: { beginAtZero: true, ticks: { color: '#8b949e', stepSize: 1 } },
+        x: { ticks: { color: '#8b949e' } }
       }
     }
   });
