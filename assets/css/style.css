@@ -107,3 +107,49 @@ body {
   padding: 2px 8px;
   border-radius: 12px;
 }
+
+/* Social Media Badges */
+.social-links-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end; /* Aligns them neatly to the right on desktop */
+}
+
+.social-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #c9d1d9;
+  background: #21262d;
+  border: 1px solid #30363d;
+  padding: 6px 14px;
+  border-radius: 20px; /* Gives them a modern pill shape */
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-family: monospace;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.social-badge:hover {
+  color: #58a6ff;
+  border-color: #58a6ff;
+  background: #161b22;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.social-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+/* On small screens, align them to the left to match the text */
+@media (max-width: 600px) {
+  .social-links-vertical {
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+}
