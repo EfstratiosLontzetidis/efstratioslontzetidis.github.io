@@ -30,6 +30,10 @@ layout: null
         </div>
       </div>
     </header>
+    <div class="stats-container" style="background: #161b22; padding: 20px; border-radius: 10px; border: 1px solid #30363d; margin-bottom: 24px;">
+      <h3 style="margin-top: 0; color: #f0f6fc;">Research Output Over Time</h3>
+      <canvas id="publicationChart" height="80"></canvas>
+    </div>
     <div class="search-container" style="margin-bottom: 24px;">
       <input type="text" id="searchInput" placeholder="Search by topic, malware, or APT..." 
              style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: #0d1117; color: #fff; font-size: 1rem;">
@@ -74,6 +78,54 @@ layout: null
         cards[i].style.display = "flex";
       } else {
         cards[i].style.display = "none";
+      }
+    }
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  // Extract dates from Jekyll and convert to years
+  const rawDates = [
+    {% for article in site.data.articles %}
+      "{{ article.date }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  const yearCounts = {};
+  rawDates.forEach(dateStr => {
+    // Extract the 4-digit year from strings like "December 16, 2025"
+    const match = dateStr.match(/\d{4}/);
+    if (match) {
+      const year = match[0];
+      yearCounts[year] = (yearCounts[year] || 0) + 1;
+    }
+  });
+
+  // Sort years chronologically
+  const labels = Object.keys(yearCounts).sort();
+  const data = labels.map(year => yearCounts[year]);
+
+  // Draw the chart
+  const ctx = document.getElementById('publicationChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'bar', // Can be 'line' or 'bar'
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Articles Published',
+        data: data,
+        backgroundColor: '#58a6ff',
+        borderColor: '#58a6ff',
+        borderWidth: 1,
+        borderRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { beginAtZero: true, ticks: { color: '#8b949e', stepSize: 1 } },
+        x: { ticks: { color: '#8b949e' } }
       }
     }
   });
