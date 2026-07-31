@@ -1,0 +1,109 @@
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #21262d;
+  padding-bottom: 20px;
+}
+
+.header h1 {
+  color: #f0f6fc;
+  margin: 0 0 10px 0;
+}
+
+.header p {
+  color: #8b949e;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* 3-Column Grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+/* Clickable Banner Card */
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #58a6ff;
+}
+
+.card-banner {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.publisher-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(13, 17, 23, 0.85);
+  color: #58a6ff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid #30363d;
+}
+
+.card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-title {
+  color: #f0f6fc;
+  font-size: 1.05rem;
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+}
+
+.card-date {
+  color: #8b949e;
+  font-size: 0.8rem;
+  margin-bottom: 14px;
+}
+
+.tags {
+  margin-top: auto;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #21262d;
+  color: #8b949e;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
