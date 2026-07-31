@@ -62,7 +62,7 @@ layout: null
             {% if article.tags contains 'Dissertation' %}
               🎓 Dissertation
             {% elsif article.tags contains 'Presentation' %}
-              ▶️ Video
+              ▶️ {{ article.publisher }}
             {% elsif article.tags contains 'Academic Paper' %}
               🎓 Academic
             {% else %}
