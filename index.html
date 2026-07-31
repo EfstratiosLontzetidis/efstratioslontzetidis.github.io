@@ -38,7 +38,17 @@ layout: null
       {% for article in site.data.articles %}
       <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer" class="card">
         <div class="card-banner" style="background-image: url('{{ article.banner }}');">
-          <span class="publisher-badge">{{ article.publisher }}</span>
+          <span class="publisher-badge">
+            {% if article.url contains 'youtube.com' %}
+              ▶️ Video
+            {% elsif article.tags contains 'Presentation' %}
+              📄 PDF
+            {% elsif article.tags contains 'Academic Paper' %}
+              🎓 Academic
+            {% else %}
+              📖 {{ article.publisher }}
+            {% endif %}
+          </span>
         </div>
         <div class="card-content">
           <h2 class="card-title">{{ article.title }}</h2>
