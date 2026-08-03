@@ -1,3 +1,10 @@
+- title: "Introducing DOUBLECUP, a ClickFix Loader Delivering CountLoader and DeviceManager RATs"
+  publisher: "SOCRadar"
+  date: "August 03, 2026"
+  banner: "/assets/doublecup.webp"
+  url: "https://socradar.io/blog/doublecup-clickfix-loader-devicemanager-rats/"
+  tags: ["DoublCup", "ClickFix", "CountLoader", "DeviceManager RAT"]
+
 - title: "Who Needs a Job? DPRK ClickFake Interview Campaign Drops PylangGhost and GolangGhost RATs"
   publisher: "SOCRadar"
   date: "July 20, 2026"
