@@ -1,3 +1,10 @@
+- title: "FTP Banners: The New Dead Drop Resolver Delivering Novel RATs"
+  publisher: "SOCRadar"
+  date: "August 21, 2026"
+  banner: "/assets/ftp_banners.jpeg"
+  url: "https://socradar.io/blog/ftp-banners-new-dead-drop-resolver-rats/"
+  tags: ["FTP Banners", "Phishing", "E4del RAT", "PINHOLE RAT", "Dead Drop Resolver"]
+
 - title: "INC Ransom Targeted 24 Law Firms, but Only 10 are Listed"
   publisher: "SOCRadar"
   date: "August 11, 2026"
