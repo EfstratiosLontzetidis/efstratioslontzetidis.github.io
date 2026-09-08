@@ -1,3 +1,10 @@
+- title: "CVE-2025-25249 Exploitation Delivers PivotC2, a FortiGate Post-Exploitation RAT"
+  publisher: "SOCRadar"
+  date: "September 08, 2026"
+  banner: "/assets/pivotc2-architecture-diagram.jpg.webp"
+  url: "https://socradar.io/blog/cve-2025-25249-pivotc2-fortigate-rat/"
+  tags: ["CVE-2025-25249", "FortiGate", "PivotC2", "Russian", "Cybercrime"]
+
 - title: "FTP Banners: The New Dead Drop Resolver Delivering Novel RATs"
   publisher: "SOCRadar"
   date: "August 21, 2026"
