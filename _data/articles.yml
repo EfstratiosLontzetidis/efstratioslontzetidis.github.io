@@ -1,3 +1,10 @@
+- title: "Operation Conflict Compass: Konni Targets Ukraine via Malicious LNK Lures"
+  publisher: "SOCRadar"
+  date: "September 22, 2026"
+  banner: "/assets/operation-conflict-compass-attack-chain.jpg.webp"
+  url: "https://socradar.io/blog/operation-conflict-compass-konni-ukraine-lnk-lure/"
+  tags: ["Konni", "DPRK", "VelvetCake", "Ukraine", "Phishing"]
+
 - title: "CVE-2025-25249 Exploitation Delivers PivotC2, a FortiGate Post-Exploitation RAT"
   publisher: "SOCRadar"
   date: "September 08, 2026"
