@@ -1,3 +1,10 @@
+- title: "NetScaler C2: A Massive CVE-2026-88771 Exploitation Operation"
+  publisher: "SOCRadar"
+  date: "October 07, 2026"
+  banner: "/assets/cve-2026-88771-exploitation-chain.jpg.webp"
+  url: "https://socradar.io/blog/netscaler-c2-cve-2026-88771-exploitation/"
+  tags: ["Citrix", "CVE-2026-88771", "Vulnerability"]
+
 - title: "Operation Conflict Compass: Konni Targets Ukraine via Malicious LNK Lures"
   publisher: "SOCRadar"
   date: "September 22, 2026"
