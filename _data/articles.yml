@@ -1,3 +1,10 @@
+- title: "Inside ICMacOS: From an Infostealer to a Persistent RAT"
+  publisher: "SOCRadar"
+  date: "October 12, 2026"
+  banner: "/assets/icmacos-telegram-development-updates-timeline.jpg.webp"
+  url: "https://socradar.io/blog/icmacos-infostealer-rat/"
+  tags: ["ICMacOS", "macOS", "stealer", "RAT"]
+
 - title: "NetScaler C2: A Massive CVE-2026-88771 Exploitation Operation"
   publisher: "SOCRadar"
   date: "October 07, 2026"
